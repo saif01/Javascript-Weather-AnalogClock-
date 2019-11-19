@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Md. Syful Islam">
+    <meta name="email" content="syful.cse.bd@gmail.com">
+    <meta name="description" content="Today Weather & Analog Clock">
+    <meta name="keywords" content="cv, resume, portfolio, saif, syfulislam">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Clock&Weather</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/script.js"></script>
+</head>
+<body>
+    <section class="split left">
+        <div class="clock">
+            <div class="date_view">
+                <div class="date" id="dateMonth">16-November-2019</div>
+                <div class="day" id="dayName">Saturday</div>
+            </div>
+            <div class="digital_clock" id="digital_clock">02:34:56 PM</div>
+            <div class="hand hour" data-hour-hand></div>
+            <div class="hand minute" data-minute-hand></div>
+            <div class="hand second" data-second-hand></div>
+            <div class="number number1">1</div>
+            <div class="number number2">2</div>
+            <div class="number number3"><span class="colorbg">3</span></div>
+            <div class="number number4">4</div>
+            <div class="number number5">5</div>
+            <div class="number number6"><span class="colorbg">6</span></div>
+            <div class="number number7">7</div>
+            <div class="number number8">8</div>
+            <div class="number number9"><span class="colorbg">9</span></div>
+            <div class="number number10">10</div>
+            <div class="number number11">11</div>
+            <div class="number number12"><span class="colorbg pr">12</span></div>
+        </div>
+    </section>
+
+    <section class="split right">
+        <div class="weather">
+            <div class="location">
+                <h2>You Are in <span class="place-name">Loading..</span></h2>
+            </div>
+            <div class="temperature">
+                <div class="weather-description">
+                    <div class="temperature-description"> Description: <span class="temperature-type">Loading..</span></div>
+                    <div class="weatherImg"></div>
+                </div>
+                <div class="degree-section">
+                    <h3>Temperature: <span class="temperature-frenheit">Loading</span></h3>
+                    <h3>Temperature: <span class="temperature-degree">Loading</span></h3>
+                </div>
+                <div class="description">
+                    <div> Humidity : <span class="humidity">Loading..</span> % || Air Pressure : <span class="pressure">Loading..</span>
+                    </div>
+
+                    <div> Wind Speed : <span class="wind-speed">Loading..</span> km/h || Rotation : <span class="wind-degree">Loading..</span> °
+                    </div>
+
+                    <div> Sunrise :
+                        <span class="sun-rise">Loading..</span> AM || Sunset : <span class="sun-set">Loading..</span> PM
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
